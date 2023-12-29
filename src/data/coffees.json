@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Cappuccino",
+    "price": 5.2,
+    "votes": 65,
+    "rating": 4.7,
+    "popular": true,
+    "soldOut": false
+  },
+  {
+    "name": "House Coffee",
+    "price": 3.5,
+    "votes": 14,
+    "rating": 4.85,
+    "popular": true,
+    "soldOut": false
+  },
+  {
+    "name": "Expresso",
+    "price": 2.5,
+    "votes": 55,
+    "rating": 4.9,
+    "popular": false,
+    "soldOut": false
+  },
+  {
+    "name": "Coffee Latte",
+    "price": 4.5,
+    "votes": 23,
+    "rating": 5,
+    "popular": false,
+    "soldOut": false
+  },
+  {
+    "name": "Chocolate Coffee",
+    "price": 4,
+    "votes": 122,
+    "rating": 4.65,
+    "popular": false,
+    "soldOut": true
+  },
+  {
+    "name": "Valentine Special",
+    "price": 5.5,
+    "votes": null,
+    "rating": null,
+    "popular": false,
+    "soldOut": false
+  }
+]
