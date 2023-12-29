@@ -54,6 +54,7 @@
   ],
   "rules": {
     "astro/no-conflict-set-directives": "error",
-    "astro/no-unused-define-vars-in-style": "error"
+    "astro/no-unused-define-vars-in-style": "error",
+    "@typescript-eslint/no-extraneous-class": "off"
   }
 }
