@@ -13,6 +13,7 @@
     "@astrojs/check": "^0.3.4",
     "@astrojs/preact": "^3.0.2",
     "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^6.1.1",
     "@fontsource-variable/dm-sans": "^5.0.3",
     "astro": "^4.0.8",
     "preact": "^10.19.3",
