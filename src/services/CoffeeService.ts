@@ -5,7 +5,7 @@ export default class CoffeeService {
   public static async getAllCoffees(
     filters?: Partial<Coffee>
   ): Promise<Coffee[]> {
-    let url = `${BASE_URL}coffee?`
+    let url = `${BASE_URL}/coffee?`
 
     if (filters != null) {
       const params = new URLSearchParams(
