@@ -1,50 +1,62 @@
 [
   {
+    "id": 1,
+    "image": "cappuccino.webp",
     "name": "Cappuccino",
+    "popular": true,
     "price": 5.2,
-    "votes": 65,
     "rating": 4.7,
-    "popular": true,
-    "soldOut": false
+    "votes": 65,
+    "available": true
   },
   {
+    "id": 2,
+    "image": "house-coffee.webp",
     "name": "House Coffee",
-    "price": 3.5,
-    "votes": 14,
-    "rating": 4.85,
     "popular": true,
-    "soldOut": false
+    "price": 3.5,
+    "rating": 4.85,
+    "votes": 15,
+    "available": true
   },
   {
-    "name": "Expresso",
+    "id": 3,
+    "image": "espresso.webp",
+    "name": "Espresso",
+    "popular": false,
     "price": 2.5,
-    "votes": 55,
     "rating": 4.9,
-    "popular": false,
-    "soldOut": false
+    "votes": 55,
+    "available": true
   },
   {
+    "id": 4,
+    "image": "coffee-latte.webp",
     "name": "Coffee Latte",
+    "popular": false,
     "price": 4.5,
+    "rating": 5.0,
     "votes": 23,
-    "rating": 5,
-    "popular": false,
-    "soldOut": false
+    "available": true
   },
   {
+    "id": 5,
+    "image": "chocolate-coffee.webp",
     "name": "Chocolate Coffee",
-    "price": 4,
-    "votes": 122,
-    "rating": 4.65,
     "popular": false,
-    "soldOut": true
+    "price": 4.0,
+    "rating": "4.65",
+    "votes": 122,
+    "available": false
   },
   {
+    "id": 6,
+    "image": "valentine-special.webp",
     "name": "Valentine Special",
-    "price": 5.5,
-    "votes": null,
-    "rating": null,
     "popular": false,
-    "soldOut": false
+    "price": 5.5,
+    "rating": null,
+    "votes": 0,
+    "available": true
   }
 ]
