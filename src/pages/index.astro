@@ -1,7 +1,25 @@
 ---
-import Layout from '../layouts/Layout.astro'
+import CoffeeList from '@/components/CoffeeList'
+import Vector from '@/components/icons/Vector'
+import Layout from '@/layouts/Layout.astro'
 ---
 
-<Layout title="Welcome to Astro.">
-  <main></main>
+<Layout title="Coffe Listing">
+  <main class="p-28">
+    <section
+      class="bg-[#1B1D1F] rounded-xl p-12 flex items-center justify-center *:z-0 relative overflow-hidden flex-col"
+    >
+      <Vector class="absolute z-10 top-8 lg:right-36 xl:right-64" />
+      <h1 class="text-white text-heading font-extrabold mt-10">
+        Our Collection
+      </h1>
+      <p class="text-center text-body text-[#6F757C] font-medium lg:w-[500px]">
+        Introducing our Coffee Collection, a selection of unique coffees from
+        different roast types and origins, expertly roasted in small batches and
+        shipped fresh weekly.
+      </p>
+
+      <CoffeeList client:load class="mt-10" />
+    </section>
+  </main>
 </Layout>
